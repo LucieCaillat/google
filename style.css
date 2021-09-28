@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body
+{
+	
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	margin: 0;
+}
+p
+{
+	font-size: 13px;
+	color: rgb(112, 112, 112)
+}
+a
+{
+text-decoration: none;
+color: black;
+font-size: 14px;
+}
+
+
+								/*Banniére du site*/	
+
+
+header
+{
+	display: flex;
+	justify-content: flex-end;
+	margin: 0;
+}
+header nav
+{
+	width: 220px;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+header a:hover
+{
+	text-decoration: underline;
+}
+.rond:hover
+{
+	background-color: rgb(240,240,240);
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rond
+{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#img_neuf
+{
+	width: 18px;
+}
+#img_profil
+{
+	width: 35px;
+}
+
+
+								/*corp du site*/
+
+section
+{
+	position: relative;
+	bottom: -180px;
+}
+section p
+{
+	display: flex;
+	justify-content: center;	
+}
+#logo
+{
+	width: 290px;
+	margin: 0 0 10px 0;
+}
+#barre
+{
+	border: 1px rgb(210, 210, 210) solid;
+	border-radius: 30px;
+	max-width: 582px;
+	height: 45px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: auto;
+}
+#barre:hover
+{
+box-shadow: 1px 1px 3px rgb(210, 210, 210);
+}
+#barre p
+{
+		margin: 10px;
+}
+#loupe
+{
+	width: 15px;
+	height: 15px;
+}
+input
+{
+	border: none;
+	width: 500px;
+}
+#boutons
+{
+	display: flex;
+	justify-content: center;
+}
+#boutons p
+{
+	background-color: rgb(240,240,240);
+	margin: 30px 15px 0 0;
+	padding: 9px;
+	border-radius: 2px;
+}
+#boutons p:hover
+{
+border: 1px rgb(200, 200, 200) solid;
+box-shadow: 1px 1px 2px rgb(200, 200, 200);
+}
+
+
+								/*pied de page*/
+footer
+{
+	background-color: rgb(240,240,240);
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	
+}
+footer a
+{
+	color: rgb(112, 112, 112);
+}
+footer a:hover
+{
+	text-decoration: underline;
+}
+#france p
+{
+	padding: 0 0 10px 10px;
+	border-bottom : 1px rgb(210, 210, 210) solid;
+}
+#bas
+{
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	flex-wrap: wrap;
+}
+#bas p
+{
+	margin: 10px;
+}
